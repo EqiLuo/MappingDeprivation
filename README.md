@@ -17,4 +17,8 @@ The CNN model will be applied to the whole urban area of Nairobi to predict the 
 ## Summary
 In general, by training this model, the usefulness of using RS-oriented features to predict deprivation degrees is examined, with a continuous data-driven multiple-deprivation index expected, thus increasing our present knowledge on how multi-dimensionality and variety of deprivation could be extracted from physical characteristics in the imagery data.
 
+## Quick guide
+- The folder named **'PCA_process'** contains the souce code of pre-processing steps of PCA input, and the rasterization of PCA-based indices. The PCA analysis, however, was conducted in SPSS. 
+- The **'CNN-based_regression_model'** contians the source code of a VGG-like regression model, predicting the degrees of deprivation. 
+
 
